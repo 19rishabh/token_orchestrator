@@ -30,7 +30,7 @@ npm install
 ```
 **Create a .env file in the root directory**:
 ```
-MONGODB_URI=mongodb://localhost:27017/token_orchestrator
+MONGODB_URI=<YOUR_MONGO_URI>
 PORT=3000
 ```
 **Start the server**:
@@ -40,7 +40,6 @@ npm run dev
 The server should now be running on the port specified in your .env file (e.g., http://localhost:3000).
 
 ## Frontend Setup
-No Installation Needed: The index.html file is self-contained.
-Simply open the index.html file in your web browser.
+No Installation Needed: Simply open the index.html file in your web browser.
 
 
